@@ -5,10 +5,7 @@ def main():
         book = f.read()
 
     words = word_count(book)
-    print(words)
-
     char_dict = char_quantity(book)
-    print(char_dict)
 
     report = f'''
 --- Begin report of {text_loc} ---
